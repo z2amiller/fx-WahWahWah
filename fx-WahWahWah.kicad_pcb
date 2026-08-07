@@ -3624,7 +3624,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R5"
-			(at 13.892585 1.278655 180)
+			(at 13.832585 0.068655 180)
 			(layer "F.SilkS")
 			(uuid "ce652e8c-ccf7-4113-93f6-cf1935a81199")
 			(effects
@@ -3815,7 +3815,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R4"
-			(at 11.43 3.302 180)
+			(at 12.26 -3.35 180)
 			(layer "F.SilkS")
 			(uuid "df73a0a8-8569-48e0-9541-324824ebdeb7")
 			(effects
@@ -3826,7 +3826,7 @@
 			)
 		)
 		(property "Value" "33K"
-			(at -3.81 3.645145 180)
+			(at -4.66 -3.68 180)
 			(layer "F.SilkS")
 			(uuid "a1065060-7de3-4263-add2-13b7dbfded10")
 			(effects
@@ -4750,15 +4750,16 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+	(footprint "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 		(layer "F.Cu")
 		(uuid "5ce0fd73-e0d1-4319-ac47-39df7f7556c2")
 		(at 56.155 53.115 -90)
-		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*5.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf")
-		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 5.5mm Capacitor")
+		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*4.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf")
+		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 4.5mm Capacitor")
 		(property "Reference" "C26"
-			(at 2.5 -4 270)
+			(at 2.5 -3.5 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "295adfd7-158c-4378-90e4-9cb311112209")
 			(effects
 				(font
@@ -4768,7 +4769,7 @@
 			)
 		)
 		(property "Value" "3.9u"
-			(at 2.5 4 270)
+			(at 2.5 3.5 270)
 			(layer "F.Fab")
 			(uuid "28780917-e76e-4a00-b5f9-83cdab7a1cfa")
 			(effects
@@ -4825,18 +4826,8 @@
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.22 2.87)
-			(end -1.22 -2.87)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a2de6730-c0cb-4d0e-91d8-e8f8dd986cf0")
-		)
-		(fp_line
-			(start 6.22 2.87)
-			(end -1.22 2.87)
+			(start -1.22 2.37)
+			(end -1.22 -2.37)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4845,18 +4836,8 @@
 			(uuid "2aa8a89e-f529-4f40-a94f-5cf67cc52104")
 		)
 		(fp_line
-			(start -1.22 -2.87)
-			(end 6.22 -2.87)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "714df0e1-5755-41b0-9c82-f06e2b18ac73")
-		)
-		(fp_line
-			(start 6.22 -2.87)
-			(end 6.22 2.87)
+			(start 6.22 2.37)
+			(end -1.22 2.37)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4864,9 +4845,29 @@
 			(layer "F.SilkS")
 			(uuid "5eb2feec-4ce6-4ac1-8b85-10b2179cc57e")
 		)
+		(fp_line
+			(start -1.22 -2.37)
+			(end 6.22 -2.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a2de6730-c0cb-4d0e-91d8-e8f8dd986cf0")
+		)
+		(fp_line
+			(start 6.22 -2.37)
+			(end 6.22 2.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "714df0e1-5755-41b0-9c82-f06e2b18ac73")
+		)
 		(fp_rect
-			(start -1.35 -3)
-			(end 6.35 3)
+			(start -1.35 -2.5)
+			(end 6.35 2.5)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4876,8 +4877,8 @@
 			(uuid "b1b01b95-2971-405b-af48-1b132452e17b")
 		)
 		(fp_rect
-			(start -1.1 -2.75)
-			(end 6.1 2.75)
+			(start -1.1 -2.25)
+			(end 6.1 2.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -4918,7 +4919,7 @@
 			(uuid "a555f4ef-abc6-4188-9543-8843e8120200")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step"
 			(offset
 				(xyz 0 0 0)
 			)
