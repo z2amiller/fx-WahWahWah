@@ -4971,7 +4971,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "053747a1-a90b-493b-90ed-3e4a8c918b28")
 		(property "Reference" "R25"
 			(at 109.474 114.3 90)
@@ -5233,7 +5233,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0d134b46-c0b7-4497-9699-ce94fefcb53a")
 		(property "Reference" "R28"
 			(at 135.89 37.084 90)
@@ -5401,7 +5401,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1f132ae1-6542-4c44-af43-4d7f8d2bd82e")
 		(property "Reference" "R26"
 			(at 118.11 84.074 90)
@@ -5942,7 +5942,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2e435c2a-8511-4e76-b1de-54517200b485")
 		(property "Reference" "R22"
 			(at 110.744 60.96 90)
@@ -6846,7 +6846,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "57b69f97-f6f2-48a0-ac7c-bcec626c011e")
 		(property "Reference" "C25"
 			(at 147.066 54.61 90)
@@ -7028,7 +7028,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5e11af0e-be16-40b5-95d2-ae8dc04c0d2f")
 		(property "Reference" "C23"
 			(at 72.39 69.596 90)
@@ -7118,7 +7118,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5f16d0b5-52ad-4592-b7a0-ea9cad5e4cec")
 		(property "Reference" "R29"
 			(at 48.514 97.79 90)
@@ -7286,7 +7286,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "74082f29-d087-45ff-bc05-f6b2c1cc7b95")
 		(property "Reference" "C24"
 			(at 134.62 69.596 90)
@@ -7376,7 +7376,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "771f99d4-6978-4448-a023-fb9b4c9544ef")
 		(property "Reference" "R23"
 			(at 82.042 67.564 90)
@@ -7466,7 +7466,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "83910aa9-4a4e-4b09-a45b-cca3a5160114")
 		(property "Reference" "C21"
 			(at 74.93 40.386 90)
@@ -7712,7 +7712,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "955b4b11-5d20-46a6-8e37-ae22ce58dc4b")
 		(property "Reference" "R30"
 			(at 166.624 36.83 90)
@@ -7737,7 +7737,7 @@
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
 			(at 168.91 36.83 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -8060,7 +8060,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a6acb763-f4da-4b0e-a5f2-5b90a81ccf32")
 		(property "Reference" "R27"
 			(at 96.774 38.1 90)
@@ -8518,7 +8518,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b4d4b6e0-b562-41f0-8f8b-92561719e61a")
 		(property "Reference" "R24"
 			(at 99.06 84.074 90)
@@ -9216,7 +9216,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e7c1935a-0fef-43fc-8de3-d04a2a1566b9")
 		(property "Reference" "R21"
 			(at 64.77 42.164 90)
