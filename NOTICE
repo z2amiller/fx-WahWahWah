@@ -1,0 +1,35 @@
+Copyright 2026 Andy Miller
+
+This project describes Open Hardware and is licensed under the CERN Open
+Hardware Licence Version 2 - Permissive (CERN-OHL-P v2). See the LICENSE
+file for the full text, or https://ohwr.org/cern_ohl_p_v2.txt
+
+You may redistribute and modify this documentation and make products using
+it under the terms of the CERN-OHL-P v2.
+
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,
+INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A
+PARTICULAR PURPOSE. Please see the CERN-OHL-P v2 for applicable conditions.
+
+
+ORIGIN AND THIRD-PARTY MATERIAL
+-------------------------------
+
+This is an independent recreation of the 1970s Thomas Organ Cry-Baby
+(model 95-910511, board 25-5500-2) in KiCad. The schematic and PCB layout
+in this repository are original work and are covered by the licence above.
+
+The original circuit dates from the 1970s and its patents have long since
+expired. However, the following are NOT covered by this licence and are
+not redistributed here:
+
+  - The "Layout by Andrew F. Shorty" home-etching artwork sheet and the
+    associated schematic transcription, which were used as dimensional
+    references only.
+  - Photographs of original hardware posted by third parties to
+    forum.pedalpcb.com.
+  - The PedalPCB "Tear Jerker Wah" build documentation, consulted as a
+    reference for the universal inductor land pattern.
+
+If you add any of those files to this repository, they remain under their
+respective owners' rights and are not licensed by this NOTICE.
