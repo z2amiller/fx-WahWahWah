@@ -762,7 +762,10 @@
       "Root"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "BOARD_STATUS": "oddity",
+    "BOARD_NOTE": "true-to-size replica of an old wah, built for a forum member -- not one of my own designs"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
